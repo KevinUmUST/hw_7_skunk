@@ -26,6 +26,7 @@ public class Dice {
 	{
 		lastDie1Roll = die1Rolls[loadedDieIndex];
 		lastDie2Roll = die2Rolls[loadedDieIndex];
+		loadedDieIndex++;
 	}
 	
 	public int getDie1Roll()
